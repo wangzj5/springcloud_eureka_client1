@@ -11,7 +11,6 @@ public class HelloController {
 
     @Value("${server.port}")
     String port;
-
     @GetMapping("/hello")
     public String hello(){
         System.out.println("你好！我的端口号："+port);
