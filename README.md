@@ -1,0 +1,6 @@
+# springcloud_eureka_client1
+这是一个eureka中的服务提供者
+代码中有两个启动类，更改端口号就可以启动同一个服务的多个实例，然后和springcloud_eureka、springcloud_ribbon实现客户端侧的负载均衡，
+
+ribbon是一个负载均衡客户端，可以很好的控制htt和tcp的一些行为。Feign默认集成了ribbon。
+
